@@ -148,6 +148,17 @@ p {
   margin-left: 100px;
 }
 
+@media all and (max-width:800px)
+{
+    .howtodog, .whatisdogs, .factsfromdog
+    {
+        display: block;
+        float: none;
+        width: 100%;
+        height: 100%;
+    }
+}
+
 .footer {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
