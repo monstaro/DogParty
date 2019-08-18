@@ -1,4 +1,4 @@
-html, body{
+html, body, nav, .topcontainer{
    margin: 0;
 }
 
@@ -83,7 +83,7 @@ h1 {
   height: 5%;
 }
 
-.lightbutton {
+.newname {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: 500;
