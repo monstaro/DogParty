@@ -9,29 +9,33 @@ function showInput () {
 
 
 
+
+
 function hideText1() {
-  var text = document.getElementById("clear1");
-  if (text.style.display === "none") {
-    text.style.display = "block";
+  var text = document.getElementById('paragraphid1');
+  if (text.style.display === 'none') {
+    text.style.display = 'block';
   } else {
-    text.style.display = "none";
+    text.style.display = 'none';
   }
 }
 
+
+
 function hideText2() {
-  var text = document.getElementById("clear2");
-  if (text.style.display === "none") {
-    text.style.display = "block";
+  var text = document.getElementById('paragraphid2');
+  if (text.style.display === 'none') {
+    text.style.display = 'block';
   } else {
-    text.style.display = "none";
+    text.style.display = 'none';
   }
 }
 
 function hideText3() {
-  var text = document.getElementById("clear3");
-  if (text.style.display === "none") {
-    text.style.display = "block";
+  var text = document.getElementById('paragraphid3');
+  if (text.style.display === 'none') {
+    text.style.display = 'block';
   } else {
-    text.style.display = "none";
+    text.style.display = 'none';
   }
 }
